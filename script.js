@@ -1,3 +1,23 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyC9WhKMPzVQWzwAs-1zVhJl0G-Dtz7UOL8",
+  authDomain: "livelocationtracker-15014.firebaseapp.com",
+  databaseURL: "https://livelocationtracker-15014-default-rtdb.firebaseio.com",
+  projectId: "livelocationtracker-15014",
+  storageBucket: "livelocationtracker-15014.firebasestorage.app",
+  messagingSenderId: "707582072085",
+  appId: "1:707582072085:web:afdafad4e49b3e2a3ec51c"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
 const status = document.getElementById("status");
 const locationDisplay = document.getElementById("location");
 const mapLink = document.getElementById("mapLink");
