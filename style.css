@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+  display: inline-block;
+}
+
+#location {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  color: #007BFF;
+}
